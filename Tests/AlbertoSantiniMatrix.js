@@ -1,5 +1,5 @@
 'use strict';
-let Dmat = [], dvec = [], Amat = [], bvec = [], res;
+let Dmat = [], dvec = [], Amat = [], bvec = [], meq = 0, label = 'Alberto Santini example';
 
 Dmat[0] = [];
 Dmat[1] = [];
@@ -34,3 +34,6 @@ Amat[2][2] = 1;
 bvec[0] = -8;
 bvec[1] = 2;
 bvec[2] = 0;
+module.exports = {
+    D : Dmat, d : dvec, A : Amat, b : bvec, label, meq
+}

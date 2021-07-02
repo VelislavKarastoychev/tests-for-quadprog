@@ -9,6 +9,11 @@ To run the tests you have to execute in the terminal the command
 ```sh
 npm t
 ```
+or if you would like to run the tests with the nodemon you may use the command:
+```sh
+npm start
+```
+Note that the required packages will be installed automatically.
 # Add a set of tests
 
 If you would like to add your own data for testing you have to inside it with the following way:

@@ -4,7 +4,8 @@
   "description": "Tests for the @euriklis/quadprog package.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/VelislavKarastoychev/tests-for-quadprog/issues"
   },
-  "homepage": "https://github.com/VelislavKarastoychev/tests-for-quadprog#readme"
+  "homepage": "https://github.com/VelislavKarastoychev/tests-for-quadprog#readme",
+  "dependencies": {
+    "@euriklis/message": "^1.2.3",
+    "@euriklis/quadprog": "1.0.0",
+    "quadprog": "1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
 }
